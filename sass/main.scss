@@ -1,0 +1,19 @@
+@import "bootstrap-sprockets";
+
+@import 'utils/variables';
+
+@import "bootstrap";
+@import "utils/media";
+@import "utils/mixins";
+@import 'base/typography';
+@import "components/carousel-slider";
+@import "components/menu-bootstrap";
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/home';
+
+@import 'themes/theme';
+
+

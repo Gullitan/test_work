@@ -1,0 +1,173 @@
+
+.art {
+    margin-top: 26px;
+    background: url("../img/art.jpg");
+    height: 456px;
+    margin-bottom: 20px;
+    padding-top: 74px;
+    padding-bottom: 74px;
+    .opacity {
+        font-family: $font-latoregular;
+        min-height: 307px;
+        background-color: rgba(255, 255, 255, 0.7);
+        text-align: center;
+        margin: 0 auto;
+        h2 {
+            padding-top: 65px;
+            font-size: 30px;
+            padding-bottom: 10px;
+            margin: auto;
+            max-width: 640px;
+            color: #556592;
+            border-bottom: 2px solid #556592;
+        }
+        .call {
+            display: inline-block;
+            max-width: 517px;
+            font-size: 22px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .register {
+            font-family: $font-ptsans;
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            display: block;
+            background-color: #e15390;
+            width: 302px;
+            margin: auto;
+            border-radius: 30px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    }
+}
+
+.popular {
+    max-width: 638px;
+    padding-left: 0;
+    padding-right: 0;
+    .center-block h2 {
+        color: #4b679d;
+        font-family: $font-hortensia;
+        padding-top: 0;
+        margin-top: 8px;
+        font-size: 35px;
+        text-align: left;
+        border-bottom: 1px solid;
+        padding-bottom: 4px;
+        margin-left: 7px;
+        max-width: 617px;
+        margin-bottom: 22px;
+    }
+}
+
+.our-clinic {
+    padding-left: 0;
+    .left {
+        line-height: 22px;
+        text-align: left;
+        @include widget-title;
+        .our-clinic-info {
+            color: black;
+            font-family: $font-ptsans;
+            font-size: 16px;
+            padding-left: 15px;
+            padding-right: 11px;
+            margin-top: 0;
+            padding-top: 10px;
+            p {
+                width: 266px;
+                margin: 0 0 10px;
+            }
+            .bottom-abzac {
+                margin-bottom: 20px;
+            }
+            a {
+                color: #d52b63;
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+.our-specialists-box {
+    .right-widget {
+        float: right;
+        min-width: 303px;
+        h3 {
+            margin-bottom: 0;
+        }
+        @include widget-title;
+    }
+    .carousel {
+        margin-top: 0;
+    }
+    .carousel-inner {
+        .item {
+            margin-top: 40px;
+            background: inherit;
+            text-align: center;
+            height: 175px !important;
+            .carousel-caption {
+                left: 6%;
+                right: 6%;
+                padding-bottom: 0;
+            }
+        }
+    }
+    .carousel-control {
+        width: 0;
+        color: #508daf;
+        opacity: 1;
+        span.fa.fa-caret-right {
+            right: 6px;
+            @include carousel-control;
+        }
+        span.fa.fa-caret-left {
+            left: 6px;
+            @include carousel-control;
+        }
+    }
+}
+
+.our-spec-info {
+    padding-left: 16px;
+    padding-right: 10px;
+    font-size: 17px;
+    .name {
+        font-family: $font-latoregular;
+        margin-top: -11px;
+        display: block;
+        margin-bottom: 5px;
+        padding-bottom: 0;
+    }
+    .titul {
+        font-family: $font-latolight;
+        padding-left: 19px;
+        padding-right: 19px;
+        width: 242px;
+        display: block;
+        line-height: 19px;
+        padding-bottom: 10px;
+        margin: auto;
+        border-bottom: 2px solid #599cc1;
+    }
+    p {
+        line-height: 22px;
+        font-family: $font-ptsans;
+        margin-top: 14px;
+    }
+    a {
+        font-family: $font-ptsans;
+        display: block;
+        color: #d52b63;
+        margin-top: 18px;
+        text-align: left;
+    }
+}
+
+.col-lg-3.col-md-5.col-sm-12.col-centered.our-specialists-box {
+    padding-right: 0;
+}

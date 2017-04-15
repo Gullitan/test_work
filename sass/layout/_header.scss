@@ -1,0 +1,203 @@
+body {
+    max-width: 1316px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 13px 20px 5px 20px;
+}
+
+header {
+    color: black;
+}
+
+.top {
+    margin-bottom: 2px;
+    overflow: hidden;
+    font-family: $font-ptsans;
+    h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        img {
+            margin-left: -21px;
+        }
+    }
+    .center {
+        overflow: hidden;
+        text-align: left;
+        width: 581px;
+        margin-left: 30px;
+        .graphic {
+            margin-bottom: 14px;
+            font-size: 16px;
+            line-height: 22px;
+            margin-top: 18px;
+            float: left;
+            width: 277px;
+        }
+        .soc-and-email {
+            margin-top: 15px;
+            float: right;
+            width: 150px;
+            .social-icons {
+                margin-bottom: 7px;
+            }
+            .fa {
+                font-size: 19px;
+                margin-right: 7px;
+                color: #a8a5a6;
+                text-decoration: none;
+            }
+            .email {
+                font-size: 15px;
+                color: black;
+                text-decoration: none;
+                border-bottom: 1px dashed black;
+            }
+        }
+        .text {
+            font-size: 21px;
+            font-family: $font-hortensia;
+            color: #758dc9;
+            display: inline-block;
+        }
+    }
+    .right {
+        float: right;
+        margin-top: 3px;
+        text-align: right;
+        .telephone {
+            color: #3f4e79;
+            display: block;
+            font-size: 29px;
+            font-weight: 700;
+        }
+        .addres {
+            margin-bottom: 17px;
+            background: url('../img/loc.jpg') no-repeat 50px;
+            display: block;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .registered {
+            background: #d15380;
+            border-radius: 25px;
+            padding: 9px 25px;
+            font-size: 16px;
+            color: white;
+            &:hover {
+                background: rgba(246, 87, 161, 0.78);
+            }
+        }
+    }
+}
+
+.img {
+    cursor: pointer;
+    margin: 8px;
+    width: 142px;
+    float: left;
+    min-height: 203px;
+    overflow: hidden;
+    display: inline-block;
+    @media screen and (max-width: 360px) {
+        margin: 2px;
+    }
+    &:hover {
+        h3 {
+            color: white;
+            background-color: #618fce;
+        }
+    }
+    .img-cosmetic {
+        position: relative;
+        left: -52px;;
+    }
+    .img-uzi {
+        position: relative;
+        left: -62px;
+    }
+    .img-analises {
+        position: relative;
+        left: -82px;
+    }
+    .img-genycology {
+        position: relative;
+        left: -98px;
+    }
+    .img-darm {
+        position: relative;
+        left: -57px;
+    }
+    .img-diagnostic {
+        position: relative;
+        left: -53px;
+    }
+    .img-antiage {
+        position: relative;
+        left: -19px;
+    }
+    h3 {
+        font-family: $font-latoregular;
+        margin-top: 0;
+        line-height: 19px;
+        font-size: 17px;
+        margin-bottom: 0;
+        padding-top: 11px;
+        padding-bottom: 6px;
+        color: black;
+    }
+    a {
+        display: block;
+        padding-top: 9px;
+        font-size: 16px;
+        padding-bottom: 4px;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.img img {
+
+    min-width: 142px;
+    height: 169px;
+}
+
+.under-menu {
+    font-family: $font-latoregular;
+    position: relative;
+    margin-bottom: 24px;
+    min-height: 290px;
+    text-align: left;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    padding-left: 50px;
+    background: url(../img/women1.jpg) no-repeat #fbfbf9 right -124px top 0;
+    h1 {
+        margin-top: 0;
+        color: #e8336f;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    .text-box {
+        display: inline-block;
+        font-size: 20px;
+        margin-bottom: 30px;
+        .blue {
+            color: #6899dd;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        .red {
+            color: #e8336f;
+            font-size: 18px;
+        }
+    }
+    .rec {
+        max-width: 900px;
+        font-size: 19px;
+    }
+    .go, .rec {
+        font-size: 19px;
+    }
+}
+

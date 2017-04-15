@@ -1,0 +1,41 @@
+@mixin sub-menu-list {
+    h3 {
+        color: #de265d;
+        font-size: 19px;
+        margin-left: 30px;
+    }
+    .toggle-submenu-list {
+        li {
+            list-style-type: disc;
+            color: #de265d;
+            a {
+                font-size: 16px;
+                line-height: 33px;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+@mixin carousel-control {
+    position: absolute;
+    top: 43%;
+    z-index: 5;
+    display: inline-block;
+    font-size: 35px;
+}
+@mixin widget-title {
+    border: 1px solid #d4d9dd;
+    padding-bottom: 20px;
+    h3 {
+        font-family: $font-latoregular;
+        font-size: 20px;
+        color: white;
+        background-color: #618fce;
+        text-align: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+}

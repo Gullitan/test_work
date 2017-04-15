@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'hortensiaregular';
+    src: url('../fonts/H/hortensia-webfont.eot');
+    src: url('../fonts/H/hortensia-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/H/hortensia-webfont.woff2') format('woff2'),
+    url('../fonts/H/hortensia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "LatoLight";
+    src: url("../fonts/L/LatoLight.eot");
+    src: url("../fonts/L/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/L/LatoLight.woff") format("woff"),
+    url("../fonts/L/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LatoRegular";
+    src: url("../fonts/L/LatoRegular.eot");
+    src: url("../fonts/L/LatoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/L/LatoRegular.woff") format("woff"),
+    url("../fonts/L/LatoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

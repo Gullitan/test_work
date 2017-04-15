@@ -1,0 +1,131 @@
+.bottom {
+    min-height: 145px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer {
+    color: black;
+    height: 186px;
+}
+
+.footer-menu {
+    margin-bottom: 0;
+    overflow: hidden;
+    list-style: none;
+    padding-left: 0;
+    min-height: 41px;
+    li {
+        background-color: #5988c8;
+        float: left;
+        display: inline-block;
+        &:hover {
+            opacity: 0.8;
+        }
+        a {
+            font-size: 18px;
+            font-family: $font-latoregular;
+            color: white;
+            text-decoration: none;
+            padding: 10px 30.3px;
+            display: block;
+        }
+    }
+    .prem {
+        border-left: 5px solid #5988c8;
+    }
+    .last {
+        border-right: 4px solid #5988c8;
+    }
+}
+
+.footer-logo {
+    margin-top: 17px;
+    h1 {
+        margin-top: 0;
+        img {
+            float: left;
+        }
+    }
+}
+
+.footer-center {
+    width: 350px;
+    text-align: left;
+    margin-top: 33px;
+    padding-left: 0;
+    padding-right: 0;
+    span {
+        font-family: $font-ptsans;
+        font-size: 16px;
+    }
+    span.graphic {
+        line-height: 23px;
+        margin-bottom: 15px;
+        float: left;
+        width: 277px;
+    }
+    .license {
+        display: inline-block;
+    }
+}
+
+.footer-right {
+    padding-right: 15px;
+    text-align: right;
+    float: right;
+    max-width: 587px;
+    overflow: hidden;
+    padding-left: 0;
+    .soc-and-email {
+        float: left;
+        text-align: left;
+        margin-left: 42px;
+        margin-top: 30px;
+        .social-icons {
+            margin-bottom: 8px;
+            .fa {
+                font-size: 19px;
+                margin-right: 7px;
+                color: #a8a5a6;
+                text-decoration: none;
+            }
+        }
+        .email {
+            font-family: "PT sans", sans-serif;
+            a {
+                color: black;
+                font-size: 15px;
+                text-decoration: none;
+                border-bottom: 1px dashed black;
+            }
+        }
+    }
+    .tel {
+        float: right;
+        width: 240px;
+        margin-top: 18px;
+        .telephone {
+            color: #3f4e79;
+            display: block;
+            font-size: 29px;
+            font-family: $font-ptsans;
+            font-weight: 700;
+        }
+        .addres {
+            margin-bottom: 12px;
+            background: url(../img/loc.jpg) no-repeat 0;
+            display: block;
+            font-size: 16px;
+            font-family: $font-ptsans;
+        }
+    }
+    .copyright {
+        display: inline-block;
+        font-family: $font-ptsans;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}

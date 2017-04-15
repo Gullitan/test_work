@@ -1,0 +1,100 @@
+.hvr-underline-reveal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+}
+.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+div#custom-bootstrap-menu {
+    border: none;
+    margin-bottom: 0;
+    border-radius: 0;
+    min-height: 41px;
+    background-color: initial;
+    .container {
+        width: 100%;
+        max-width: 1276px;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .collapse {
+        padding-left: 0;
+        padding-right: 0;
+        .nav {
+            width: 100%;
+            li {
+                .hvr-underline-reveal {
+                    color: white;
+                    font-family: $font-ptsans;
+                    font-size: 17px;
+                    position: relative;
+                    display: block;
+                    padding: 11px 33.8px 10px 33.8px;
+                    background-color: #5c93d6;
+                    &:hover {
+                        background-color: #77a1d8;
+                    }
+                }
+            }
+        }
+
+    }
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+header .collapse .nav {
+    background-color: #5c93d6;
+    .toggle-menu {
+        float: left;
+        position: relative;
+        .submenu {
+            width: 500px;
+            height: 200px;
+            overflow: hidden;
+            padding-bottom: 20px;
+            padding-right: 35px;
+            padding-left: 15px;
+            position: absolute;
+            .fisio {
+                float: left;
+                text-align: left;
+                @include sub-menu-list;
+            }
+            .mezo, .care, .depilation {
+                float: right;
+                width: 207px;
+                text-align: left;
+                @include sub-menu-list;
+            }
+        }
+
+    }
+    .toggle-menu:hover .submenu {
+        left: 0;
+        top: 41px;
+        z-index: 99999;
+        width: auto;
+        min-width: 500px;
+        min-height: 400px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: #f6f5f5;
+        height: auto;
+        box-shadow: 0 10px 10px 3px rgba(0, 1, 1, 0.26);
+    }
+}
+
