@@ -24,7 +24,6 @@ footer {
         }
         a {
             font-size: 18px;
-            font-family: $font-latoregular;
             color: white;
             text-decoration: none;
             padding: 10px 30.3px;
@@ -56,7 +55,6 @@ footer {
     padding-left: 0;
     padding-right: 0;
     span {
-        font-family: $font-ptsans;
         font-size: 16px;
     }
     span.graphic {
@@ -92,7 +90,6 @@ footer {
             }
         }
         .email {
-            font-family: "PT sans", sans-serif;
             a {
                 color: black;
                 font-size: 15px;
@@ -109,7 +106,6 @@ footer {
             color: #3f4e79;
             display: block;
             font-size: 29px;
-            font-family: $font-ptsans;
             font-weight: 700;
         }
         .addres {
@@ -117,12 +113,10 @@ footer {
             background: url(../img/loc.jpg) no-repeat 0;
             display: block;
             font-size: 16px;
-            font-family: $font-ptsans;
         }
     }
     .copyright {
         display: inline-block;
-        font-family: $font-ptsans;
         font-size: 16px;
         line-height: 22px;
         margin-bottom: 0;

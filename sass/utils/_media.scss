@@ -1,55 +1,71 @@
 // header
 @media screen and (max-width: 1333px) {
-    div#custom-bootstrap-menu .collapse .nav li .hvr-underline-reveal {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        font-size: 17px;
+        padding: 11px 34px 10px 34px;
+    }
+}
+@media screen and (max-width: 1292px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        font-size: 17px;
+        padding: 11px 32px 10px 32px;
+    }
+}
+@media screen and (max-width: 1256px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        font-size: 16px;
+        padding: 11px 32px 10px 32px;
+    }
+}
+@media screen and (max-width: 1219px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        padding: 11px 30px 10px 30px;
+    }
+}
+@media screen and (max-width: 1183px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        padding: 11px 28px 10px 28px;
+    }
+}
+@media screen and (max-width: 1147px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        padding: 11px 25px 10px 25px;
+    }
+}
+@media screen and (max-width: 1093px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
         font-size: 15px;
-        padding: 11px 33.8px 10px 33.8px;
-    }
-}
-@media screen and (max-width: 1250px) {
-    div#custom-bootstrap-menu .collapse .nav li .hvr-underline-reveal {
-        font-size: 15px;
-        padding: 11px 29.8px 10px 29.8px;
-    }
-}
-@media screen and (max-width: 1179px) {
-    div#custom-bootstrap-menu .collapse .nav li .hvr-underline-reveal {
-        font-size: 14px;
-        padding: 11px 27.8px 10px 27.8px;
-    }
-}
-@media screen and (max-width: 1108px) {
-    div#custom-bootstrap-menu .collapse .nav li .hvr-underline-reveal {
         padding: 11px 24px 10px 24px;
     }
 }
-@media screen and (max-width: 1040px) {
-    div#custom-bootstrap-menu .collapse .nav li .hvr-underline-reveal {
-        padding: 11px 21px 10px 21px;
+@media screen and (max-width: 1039px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        padding: 11px 22px 10px 22px;
     }
 }
-@media screen and (max-width: 986px) {
-    div#custom-bootstrap-menu .collapse .nav li .hvr-underline-reveal {
-        padding: 11px 18px 10px 18px;
+@media screen and (max-width: 1003px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        font-size: 14px;
+        padding: 11px 20px 10px 20px;
     }
 }
-@media screen and (max-width: 932px) {
-    div#custom-bootstrap-menu .collapse .nav li .hvr-underline-reveal {
-        padding: 11px 15px 10px 15px;
+@media screen and (max-width: 930px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        padding: 11px 17px 10px 17px;
     }
 }
-@media screen and (max-width: 932px) {
-    div#custom-bootstrap-menu .collapse .nav li .hvr-underline-reveal {
-        padding: 11px 15px 10px 15px;
+@media screen and (max-width: 876px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        padding: 11px 14px 10px 14px;
     }
 }
-@media screen and (max-width: 878px) {
-    div#custom-bootstrap-menu .collapse .nav li .hvr-underline-reveal {
-        font-size: 13px;
-        padding: 11px 11px 10px 11px;
+@media screen and (max-width: 822px) {
+    header div#custom-bootstrap-menu .collapse .nav li a.hvr-underline-reveal {
+        padding: 11px 10px 10px 10px;
     }
 }
 @media screen and (max-width: 767px) {
-    header .collapse .nav .toggle-menu {
+    header .collapse .nav li.toggle-menu {
         float: none;
     }
     div#custom-bootstrap-menu .collapse .nav {
@@ -61,6 +77,9 @@
     }
 }
 @media screen and (max-width: 1221px) {
+    .row .our-clinic .left .our-clinic-info p {
+        width: 100%;
+    }
     .our-specialists-box {
         float: left;
     }

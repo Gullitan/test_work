@@ -1,3 +1,17 @@
+html.bg {
+    max-width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    background: url("../img/section-bg.jpg") no-repeat;
+}
+body {
+    min-height: 1727px;
+    max-width: 1316px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 13px 20px 5px 20px;
+    box-shadow: 0 10px 10px 3px rgba(0,1,1,0.26);
+}
 
 .art {
     margin-top: 26px;
@@ -7,7 +21,6 @@
     padding-top: 74px;
     padding-bottom: 74px;
     .opacity {
-        font-family: $font-latoregular;
         min-height: 307px;
         background-color: rgba(255, 255, 255, 0.7);
         text-align: center;
@@ -29,7 +42,6 @@
             margin-bottom: 20px;
         }
         .register {
-            font-family: $font-ptsans;
             color: white;
             text-decoration: none;
             font-size: 22px;
@@ -50,9 +62,8 @@
     padding-right: 0;
     .center-block h2 {
         color: #4b679d;
-        font-family: $font-hortensia;
         padding-top: 0;
-        margin-top: 8px;
+        margin-top: 6px;
         font-size: 35px;
         text-align: left;
         border-bottom: 1px solid;
@@ -71,7 +82,6 @@
         @include widget-title;
         .our-clinic-info {
             color: black;
-            font-family: $font-ptsans;
             font-size: 16px;
             padding-left: 15px;
             padding-right: 11px;
@@ -91,7 +101,76 @@
         }
     }
 }
+.img {
+    cursor: pointer;
+    margin: 8px;
+    width: 142px;
+    float: left;
+    min-height: 203px;
+    overflow: hidden;
+    display: inline-block;
+    @media screen and (max-width: 360px) {
+        margin: 2px;
+    }
+    &:hover {
+        h3 {
+            color: white;
+            background-color: #618fce;
+        }
+    }
+    .img-cosmetic {
+        position: relative;
+        left: -52px;;
+    }
+    .img-uzi {
+        position: relative;
+        left: -62px;
+    }
+    .img-analises {
+        position: relative;
+        left: -82px;
+    }
+    .img-genycology {
+        position: relative;
+        left: -98px;
+    }
+    .img-darm {
+        position: relative;
+        left: -57px;
+    }
+    .img-diagnostic {
+        position: relative;
+        left: -53px;
+    }
+    .img-antiage {
+        position: relative;
+        left: -19px;
+    }
+    h3 {
+        margin-top: 0;
+        line-height: 19px;
+        font-size: 17px;
+        margin-bottom: 0;
+        padding-top: 11px;
+        padding-bottom: 6px;
+        color: black;
+    }
+    a {
+        display: block;
+        padding-top: 9px;
+        font-size: 16px;
+        padding-bottom: 4px;
+        &:hover {
+            color: white;
+        }
+    }
+}
 
+.img img {
+
+    min-width: 142px;
+    height: 169px;
+}
 .our-specialists-box {
     .right-widget {
         float: right;
@@ -137,14 +216,12 @@
     padding-right: 10px;
     font-size: 17px;
     .name {
-        font-family: $font-latoregular;
         margin-top: -11px;
         display: block;
         margin-bottom: 5px;
         padding-bottom: 0;
     }
     .titul {
-        font-family: $font-latolight;
         padding-left: 19px;
         padding-right: 19px;
         width: 242px;
@@ -156,11 +233,9 @@
     }
     p {
         line-height: 22px;
-        font-family: $font-ptsans;
         margin-top: 14px;
     }
     a {
-        font-family: $font-ptsans;
         display: block;
         color: #d52b63;
         margin-top: 18px;

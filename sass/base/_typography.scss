@@ -1,0 +1,50 @@
+// header - - - - - >>>
+.top {
+    font-family: $font-ptsans;
+    .text {
+        font-family: $font-hortensia;
+    }
+}
+.under-menu {
+    font-family: $font-latoregular;
+}
+
+// page - - - - - >>>
+.art {
+    .opacity {
+        font-family: $font-latoregular;
+        .register {
+            font-family: $font-ptsans;
+        }
+    }
+}
+.popular {
+    h2 {
+        font-family: $font-hortensia;
+    }
+}
+.our-clinic-info {
+    font-family: $font-ptsans;
+}
+.img h3 {
+    font-family: $font-latoregular;
+}
+.our-spec-info {
+    font-family: $font-ptsans;
+    .name {
+        font-family: $font-latoregular;
+    }
+    .titul {
+        font-family: $font-latolight;
+    }
+}
+// footer - - - - - >>>
+.footer-menu li a {
+    font-family: $font-latoregular;
+}
+.footer-center {
+    font-family: $font-ptsans;
+}
+.footer-right {
+    font-family: $font-ptsans;
+}
